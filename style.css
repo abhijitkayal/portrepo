@@ -1118,7 +1118,7 @@ section{
    #menu-icon{
     display: block;
     color:white;
-    margin-right: -130px;
+    margin-right: -50px;
    }
    .navbar{
     display: none;
@@ -1190,7 +1190,7 @@ section{
 }
 .about{
     margin-left:80px;
-    width:500px;
+    width:350px;
 }
 .about .box{
     display: none;
@@ -1211,7 +1211,7 @@ section{
     display: flex;
 }
 .services-list div{
-    width:300px;
+    width:240px;
     margin-left: -10px;
     margin-top: 50px;
 }
@@ -1259,7 +1259,7 @@ section{
     margin-left: 70px;
 }
 .last-text{
-    width:600px;
+    width:430px;
 }
 .contact-form form .send{
     width:315px;
@@ -1269,5 +1269,8 @@ section{
 }
 .top i{
     margin-left:-150px;
+}
+.container{
+    padding: 60px;
 }
 }
