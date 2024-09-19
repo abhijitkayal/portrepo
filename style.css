@@ -1118,7 +1118,7 @@ section{
    #menu-icon{
     display: block;
     color:white;
-    margin-right: -70px;
+    margin-right: -130px;
    }
    .navbar{
     display: none;
@@ -1263,5 +1263,11 @@ section{
 }
 .contact-form form .send{
     width:315px;
+}
+.last-text p{
+    width: 450px;
+}
+.top i{
+    margin-left:-150px;
 }
 }
