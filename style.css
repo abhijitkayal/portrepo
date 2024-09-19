@@ -1118,13 +1118,13 @@ section{
    #menu-icon{
     display: block;
     color:white;
-    margin-right: -150px;
+    margin-right: -70px;
    }
    .navbar{
     display: none;
     position: absolute;
     top: 100%;
-    right: -100px;
+    right: 0px;
     width:50%;
     padding: 1rem 3rem;
     border-left: 2px solid#0ef;
@@ -1145,7 +1145,7 @@ section{
    }
    .navbar.active{
     display: block;
-    right:-350px;
+    right:0px;
    }
     .home-content h1{
         font-size: 45px;
@@ -1162,7 +1162,7 @@ section{
         margin-left:50px;
 }
 .home{
-    margin-top: -150px;
+    margin-top: -50px;
 }
 .home-sci{
     margin:40px;
@@ -1179,10 +1179,13 @@ section{
 .show-off{
     display:block;
     margin-top:-40px;
+    
 }
 .show-off .box{
     margin-top:50px;
-    margin-left: 130px;
+    margin-left: 40px;
+    width:350px;
+    height:350px;
 
 }
 .about{
@@ -1221,11 +1224,14 @@ section{
 }
 .heading{
     display: flex;
-    margin:100px
+    margin:100px;
 }
 .container2{
     margin-top: 750px;
     margin-left: 70px;
+}
+.container2 h1{
+    margin-left: 25px;
 }
 .container2 .radial-bars{
     margin-left: 0px;
@@ -1236,7 +1242,8 @@ section{
     margin-right:0px;
 }
 .heading1{
-    display: flex;
+    /* display: flex; */
+    margin-right:200px;
 }
 .contact-list{
     display: none;
@@ -1253,5 +1260,8 @@ section{
 }
 .last-text{
     width:600px;
+}
+.contact-form form .send{
+    width:315px;
 }
 }
