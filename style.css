@@ -1268,7 +1268,7 @@ section{
     width: 450px;
 }
 .top i{
-    margin-left:-150px;
+    margin-left:0px;
 }
 .container{
     padding: 60px;
